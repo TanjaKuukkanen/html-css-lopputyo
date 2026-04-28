@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(209, 120, 85);
+}
+.welcome {
+  background-image: url('./images/Meri.jpg');
+  background-size: cover;
+  font-family: monospace;
+  text-shadow: 1px 0 10px #777;
+}
+header {
+  font-size: large;
+  color: white;
+  font-family: serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: larger;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: darkslategray;
+}
+footer {
+  color: rgb(255, 255, 255);
+  margin: auto;
+  text-align: center;
+  position: static;
+  font-family: monospace;
+}
+div {
+  border-color: whitesmoke;
+  text-align: center;
+  color: white;
+}
+.ex1 {
+  font-family: monospace;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+#picture {
+  padding-top: 20px;
+}
+
+div.gallery {
+  border-style: inset;
+  border-color: white;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  color: darkslategray;
+}
+
+div.gallery img {
+  width: 30%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  border-style: inset;
+  font-family: monospace;
+}
+
+.card {
+  font-family: monospace;
+  padding: 5px;
+  margin: 20px;
+  width: 20rem;
+  background-color: rgb(143, 119, 111);
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    /* For mobile phones: */
+    width: 100%;
+  }
+}
+.responsive {
+  max-width: fit-content;
+}
+@media only screen and (max-width: 700px) {
+  /* For tablets: */
+  .col-s-2 {
+    width: 16.66%;
+  }
+}
