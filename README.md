@@ -2,7 +2,7 @@
 
 Tämä projekti on ensimmäisen vuoden opintojen aikana toteutettu staattinen verkkosivusto, jossa harjoittelin HTML- ja CSS-perusteita sekä monisivuisen sivuston rakentamista.
 
-## 👉 [Avaa sivusto](https://tanjakuukkanen.github.io/html-css-lopputyo/)
+👉 [Avaa sivusto](https://tanjakuukkanen.github.io/html-css-lopputyo/)
 
 ## 🧠 Projektista
 
